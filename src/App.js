@@ -2,13 +2,14 @@ import React from 'react';
 import './App.scss';
 import { Card } from 'antd';
 import {connect} from 'react-redux'
+import Footer from './components/Footer'
 
 const App = ({skills}) => {
   return (
     <div className='wrapper'>
       <div className='navBar'>
         <div className="navWrapper">
-          <div className="navPiece">GitHub</div>
+          <div className="navPiece"><a href={'https://github.com/iamrico'}>GitHub</a></div>
           <div className="navPiece">Contact</div>
           <div className="navPiece">Resume</div>
         </div>
@@ -26,7 +27,7 @@ const App = ({skills}) => {
               <div className='list'>
                 
                 {
-                  skills.languages.map(skill=>(<div className='item'>&#9632; {skill}</div>))
+                  skills.languages.map(skill=>(<div className='item'><span style={{"color":"#5FC4E5"}}>&#9632;</span> {skill}</div>))
                 }
                 
               </div>
@@ -34,7 +35,7 @@ const App = ({skills}) => {
               <div className='list'>
                 
                 {
-                  skills.databases.map(skill=>(<div className='item'>&#9632; {skill}</div>))
+                  skills.databases.map(skill=>(<div className='item'><span style={{"color":"#38C18B"}}>&#9632;</span> {skill}</div>))
                 }
                 
               </div>
@@ -42,13 +43,22 @@ const App = ({skills}) => {
               <div className='list'>
                 
                 {
-                  skills.tools.map(skill=>(<div className='item'>&#9632; {skill}</div>))
+                  skills.tools.map(skill=>(<div className='item'><span style={{"color":"#D12095"}}>&#9632;</span>{skill}</div>))
+                }
+                
+              </div>
+              <div className='subheader'>Cloud Technology</div>
+              <div className='list'>
+                
+                {
+                  skills.ctech.map(skill=>(<div className='item'><span style={{"color":"#ffe924"}}>&#9632;</span> {skill}</div>))
                 }
                 
               </div>
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
