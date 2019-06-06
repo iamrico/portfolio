@@ -15,14 +15,14 @@ const App = ({skills}) => {
         </div>
         <div className="navBarPic">
           <div className="name"> 
-              Hi, I'm Jericho Mesina
+              <strong>Hi, I'm Jericho Mesina</strong>
           </div>
         </div>
       </div>
       <div className='card'>
         <div className='partOne'>
           <div className='sub'>
-              <div>Skills</div>
+              <div><u><strong>Skills</strong></u></div>
               <div className='subheader'>Languages</div>
               <div className='list'>
                 
