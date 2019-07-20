@@ -9,6 +9,24 @@
 
 .fItem{
     font-size:15pt;
-    padding:50px;
+    // padding:50px;
     color:	white;
+}
+
+@media (min-width:200px) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .fItem{
+        align-self:center;
+    }
+}
+
+@media (min-width:1024px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }

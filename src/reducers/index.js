@@ -4,9 +4,17 @@ const initialState = {
     skills:{
         languages:['Java', 'Python','C','PHP'],
         databases:['MySQL','Cloud Firestore','Firebase Realtime Database','Google Cloud Datastore'],
-        tools:['Angular','React','Redux','React Native','Flask','GraphQL','TypeScript','Javascript','ES6','REST Api','Gatsby.js'],
-        ctech:['Amazon Web Services (Route 53)','Google Cloud Platform']
-    }
+        tools:['React','Redux','React Native','Node JS','Flask','GraphQL','Angular','TypeScript','Javascript','ES6','REST Api','Gatsby.js'],
+        ctech:['Amazon Web Services (Route 53, s3)','Google Cloud Platform']
+    },
+    projects:[
+        {
+            projId:1,
+            projName: "Lakbay",
+            tools:['React','Firebase','Material Design','ES6'],
+            description:"Lakbay is a chrome extension that lets you add your experiences from your trips and whatever you post, gets shared with the world! Use this application to recommend itineraries to your friends when they visit countries."
+        }
+    ]
 }
 
 function rootReducer(state=initialState, action){
