@@ -8,9 +8,10 @@
 }
 
 .fItem{
-    font-size:15pt;
+    padding:.5em;
+    font-size:1em;
     // padding:50px;
-    color:	white;
+    color:#FF7701;
 }
 
 @media (min-width:200px) {
@@ -28,5 +29,8 @@
     .footer{
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    .fItem{
+        padding:5em;
     }
 }

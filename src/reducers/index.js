@@ -9,6 +9,7 @@ const initialState = {
     },
     projects:[
         {
+            repo:"https://github.com/iamrico/ItineraryApp",
             projId:1,
             projName: "Lakbay",
             tools:['React','Firebase','Material Design','ES6'],
