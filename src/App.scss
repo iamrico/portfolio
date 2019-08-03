@@ -175,6 +175,7 @@ ul{
   padding:.01em;
   align-self: center;
   justify-content: center;
+  margin-bottom:2vh;
 }
 .custom-underline {
   position: relative;
@@ -195,6 +196,7 @@ a {
 
 .project1{
   display:flex;
+  margin-bottom:5vh;
 }
 
 .rec1{
@@ -207,6 +209,7 @@ a {
 }
 
 .description{
+  width:100%;
   display:flex;
   flex-direction:column;
   justify-content: center;

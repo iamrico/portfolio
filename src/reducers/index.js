@@ -1,4 +1,6 @@
 import {ADD_SKILL} from "../constants/action-types";
+import pic1 from "../assets/lakbaysc.PNG";
+import pic2 from "../assets/sanles.png";
 
 const initialState = {
     skills:{
@@ -11,9 +13,18 @@ const initialState = {
         {
             repo:"https://github.com/iamrico/ItineraryApp",
             projId:1,
+            pic:pic1,
             projName: "Lakbay",
             tools:['React','Firebase','Material Design','ES6'],
             description:"Lakbay is a chrome extension that lets you add your experiences from your trips and whatever you post, gets shared with the world! Use this application to recommend itineraries to your friends when they visit countries."
+        },
+        {
+            repo:"https://github.com/Zeshiba/SanlesStore-POS",
+            projId:2,
+            projName: "Sanles(Inventory System)",
+            pic: pic2,
+            tools:['Angular','Play!','Material Design','TypeScript'],
+            description:"Written for a school project back in the day, this app was created for a local business to track sales and manage business. "
         }
     ]
 }

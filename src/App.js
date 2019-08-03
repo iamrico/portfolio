@@ -77,7 +77,7 @@ const App = ({skills,projects}) => {
               return (
                   <div className="project1" key={project.projId}>
                       <div className="rec1">
-                        <img src={pic1} alt={"wtf"} className="imageStyle"/>
+                        <img src={project.pic} alt={"wtf"} className="imageStyle"/>
                       </div>  
                       <div className="rec2">
                         <div className='description'>
