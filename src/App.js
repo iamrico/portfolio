@@ -12,7 +12,7 @@ const App = ({skills,projects}) => {
       <div className="navWrapper">
           <div className="navPiece"><a style={{"color":'black'}} href={'https://github.com/iamrico'}>GitHub</a></div>
           <div className="navPiece">Contact</div>
-          <div className="navPiece"><a style={{"color":'black'}} href={"https://storage.googleapis.com/portfolio_project/Rico's%20Resume%20(2).pdf"}>Resume</a></div>
+          <div className="navPiece"><a style={{"color":'black'}} href={"https://storage.googleapis.com/portfolio_project/Rico's%20Resume%20(4).pdf"}>Resume</a></div>
           <div className="navPiece"><a style={{"color":'black'}} href='#section1'>Skills</a></div>
           <div className="navPiece"><a style={{"color":'black'}} href='#section2'>Personal Projects</a></div>
       </div>
