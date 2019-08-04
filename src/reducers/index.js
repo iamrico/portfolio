@@ -1,6 +1,7 @@
 import {ADD_SKILL} from "../constants/action-types";
 import pic1 from "../assets/lakbaysc.PNG";
 import pic2 from "../assets/sanles.png";
+import pic3 from '../assets/wooo.jfif';
 
 const initialState = {
     skills:{
@@ -25,6 +26,14 @@ const initialState = {
             pic: pic2,
             tools:['Angular','Play!','Material Design','TypeScript'],
             description:"Written for a school project back in the day, this app was created for a local business to track sales and manage business. "
+        },
+        {
+            repo:"https://github.com/jacklaurencegaray/wooo-web",
+            projId:2,
+            projName: "Wooo",
+            pic: pic3,
+            tools:['React','React Native','MobX','ES6'],
+            description:"A school project. I was in charge of handling the Front End Development, mainly the Matching module, based on designs created by our teammate.I also connected the endpoints from the backend as well."
         }
     ]
 }
