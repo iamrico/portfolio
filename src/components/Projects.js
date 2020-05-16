@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import Swiper from "swiper";
 import "swiper/css/swiper.css";
+import Slide from '../components/Slide';
+import '../App.scss';
 
 const Title = styled.h2`
   font-family: Axiforma-Bold;
@@ -29,6 +31,9 @@ class Project extends Component {
       scrollbar: {
           hide: true,
       },
+      slidesPerView: 2,
+      centeredSlides: true,
+      mousewheel: true,
     });
   }
 
@@ -40,9 +45,9 @@ class Project extends Component {
           <div className="row">
             <div className="swiper-container">
               <div className="swiper-wrapper">
-                <div className="swiper-slide">Slide 1</div>
-                <div className="swiper-slide">Slide 2</div>
-                <div className="swiper-slide">Slide 3</div>
+                <div className="swiper-slide" ><Slide/></div>
+                <div className="swiper-slide"><Slide/></div>
+                <div className="swiper-slide"><Slide/></div>
               </div>
               <div className="swiper-pagination"></div>
               <div className="swiper-button-prev"></div>
