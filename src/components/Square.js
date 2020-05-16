@@ -43,6 +43,7 @@ const OtherImage = styled.img`
     }
 `
 const Description = styled.p`
+    font-family: Axiforma-Medium;
     opacity: 0;
     bottom: 0px;
     transition: 0.1s ease;
@@ -60,7 +61,7 @@ const Description = styled.p`
 
 const Square = () => {
   return (
-    <div className="col-lg-4 col-sm-4 col-xs-6">
+    <div className="col-lg-3 col-sm-4 col-xs-6">
       <Container>
         <ToolListBoxContent>
             <Image src={reactIcon} />

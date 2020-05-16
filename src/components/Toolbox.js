@@ -37,6 +37,7 @@ const ToolBox = () => {
                     <Square></Square>
                     <Square></Square>
                     <Square></Square>
+                    <Square></Square>
                 </div>
             </div>
         </section>

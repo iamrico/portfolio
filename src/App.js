@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import Banner from './components/Banner';
 import fonts from './assets/fonts/fonts.scss';
 import ToolBox from './components/Toolbox';
+import Projects from './components/Projects';
 
 const App = ({skills,projects}) => {
   return (
@@ -12,6 +13,7 @@ const App = ({skills,projects}) => {
         <NavBar />
         <Banner />
         <ToolBox />
+        <Projects />
       </div>
     </div>
   );
