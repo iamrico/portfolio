@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Axiforma-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Axiforma-Bold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Axiforma-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Axiforma-Medium.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'Axiforma-Thin';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./Axiforma-Thin.ttf'); /* IE9 Compat Modes */
+}
+$axiforma-bold: 'Axiform-Bold';
