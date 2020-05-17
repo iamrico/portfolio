@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import image from "../assets/blur-code.jpg";
-import github_logo from '../assets/github.png';
-import Bullet from '../assets/list-bullet.svg';
+import github_logo from "../assets/github.png";
+import Bullet from "../assets/list-bullet.svg";
 
 const Image = styled.img`
   object-fit: contain;
@@ -23,7 +23,10 @@ const DetailArea = styled.div`
 `;
 
 const Description = styled.div`
-    font-family: Axiforma-Regular;
+  font-family: Axiforma-Regular;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-size: 16px;
 `;
 
 const Container = styled.div`
@@ -32,28 +35,30 @@ const Container = styled.div`
 `;
 
 const ProjectTitle = styled.div`
-    font-family: Axiforma-Bold;
+  font-family: Axiforma-Bold;
+  padding-bottom: 8px;
 `;
 
 const ProjectNumber = styled.div`
-    font-family: Axiforma-Thin;
+  font-family: Axiforma-Thin;
 `;
 
 const FirstRow = styled.div`
   display: flex;
   justify-content: space-between;
-`
+  padding-bottom: 15px;
+`;
 const CodeLink = styled.a`
   color: inherit !important;
-  font-family: 'Axiforma-Regular';
+  font-family: "Axiforma-Regular";
   font-size: 14px;
-`
+`;
 
 const GithubLogo = styled.img`
-    width: 17px;
-    height: 17px;
-    margin-right: 15px;
-`
+  width: 17px;
+  height: 17px;
+  margin-right: 15px;
+`;
 
 const ListBullet = styled.li`
   padding-left: 1em;
@@ -65,12 +70,13 @@ const ListBullet = styled.li`
 `;
 
 const List = styled.ul`
+  padding-top: 10px;
   padding-left: 0;
   list-style: none;
   /*default*/
   line-height: 1.5;
   display: flex;
-`
+`;
 
 const Slide = () => {
   return (
@@ -81,10 +87,22 @@ const Slide = () => {
           <DetailArea>
             <FirstRow>
               <ProjectNumber>01</ProjectNumber>
-              <CodeLink><a href='/'><GithubLogo src={github_logo} alt='github_logo' />Code</a></CodeLink>
+              <CodeLink>
+                <a href="/">
+                  <GithubLogo src={github_logo} alt="github_logo" />
+                  Code
+                </a>
+              </CodeLink>
             </FirstRow>
             <ProjectTitle>Project 1</ProjectTitle>
-            <Description>Lorem Ipsum Dolor Sit Amet</Description>
+            <Description>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.{" "}
+            </Description>
             <List>
               <ListBullet>React</ListBullet>
               <ListBullet>Firebase</ListBullet>

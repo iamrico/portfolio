@@ -34,6 +34,7 @@ class Project extends Component {
       slidesPerView: 2,
       centeredSlides: true,
       mousewheel: true,
+      initialSlide: 1,
     });
   }
 
