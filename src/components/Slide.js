@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import image from "../assets/blur-code.jpg";
 import github_logo from '../assets/github.png';
+import Bullet from '../assets/list-bullet.svg';
 
 const Image = styled.img`
   object-fit: contain;
@@ -54,6 +55,21 @@ const GithubLogo = styled.img`
     margin-right: 15px;
 `
 
+const ListBullet = styled.li`
+  padding-left: 1em;
+  background-image: url(${Bullet});
+  background-repeat: no-repeat;
+  background-size: 0.25em;
+  background-position: 0 10px;
+`;
+
+const List = styled.ul`
+  padding-left: 0;
+  list-style: none;
+  /*default*/
+  line-height: 1.5;
+`
+
 const Slide = () => {
   return (
     <div className="container">
@@ -67,6 +83,10 @@ const Slide = () => {
             </FirstRow>
             <ProjectTitle>Project 1</ProjectTitle>
             <Description>Lorem Ipsum Dolor Sit Amet</Description>
+            <List>
+              <ListBullet>React</ListBullet>
+              <ListBullet>Firebase</ListBullet>
+            </List>
           </DetailArea>
         </Container>
       </Center>
