@@ -69,7 +69,6 @@ const Square = () => {
             encourages the creation of reusable UI components, which present
             data that changes over time.
           </Description>
-          
         </ToolListBoxContent>
       </Container>
     </div>
