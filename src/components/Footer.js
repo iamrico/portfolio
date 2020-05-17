@@ -19,23 +19,33 @@ const FooterSection = styled.footer`
   margin-top: 100px;
 `;
 
+const FooterItem = styled.div`
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1em;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: Axiforma-Regular;
+`;
+
 const Footer = () => {
   return (
     <FooterSection>
-      <div className="fItem">
+      <FooterItem>
         <strong>Contact Me</strong>
-      </div>
-      <div className="fItem">
+      </FooterItem>
+      <FooterItem>
         <a href="mailto:jerichomesina02@gmail.com">
           @ jerichomesina02@gmail.com
         </a>
-      </div>
-      <div className="fItem">
+      </FooterItem>
+      <FooterItem>
         <LinkedInLogo src={linkedin_logo} />
         <a href={"https://www.linkedin.com/in/jericho-mesina-7a4a4016b/"}>
           Jericho Mesina
         </a>
-      </div>
+      </FooterItem>
     </FooterSection>
   );
 };
