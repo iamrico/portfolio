@@ -20,12 +20,23 @@ const DetailArea = styled.div`
   padding-top: 20px;
 `;
 
-const Description = styled.div``;
+const Description = styled.div`
+    font-family: Axiforma-Regular;
+`;
 
 const Container = styled.div`
   max-width: 800px;
   margin: auto;
 `;
+
+const ProjectTitle = styled.div`
+    font-family: Axiforma-Bold;
+`;
+
+const ProjectNumber = styled.div`
+    font-family: Axiforma-Thin;
+`;
+
 const Slide = () => {
   return (
     <div className="container">
@@ -33,8 +44,8 @@ const Slide = () => {
         <Container>
           <Image src={image} />
           <DetailArea>
-            <div>01</div>
-            <div>Project 1</div>
+            <ProjectNumber>01</ProjectNumber>
+            <ProjectTitle>Project 1</ProjectTitle>
             <Description>Lorem Ipsum Dolor Sit Amet</Description>
           </DetailArea>
         </Container>
