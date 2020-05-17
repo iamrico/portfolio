@@ -88,10 +88,8 @@ const Slide = () => {
             <FirstRow>
               <ProjectNumber>01</ProjectNumber>
               <CodeLink>
-                <a href="/">
                   <GithubLogo src={github_logo} alt="github_logo" />
                   Code
-                </a>
               </CodeLink>
             </FirstRow>
             <ProjectTitle>Project 1</ProjectTitle>
