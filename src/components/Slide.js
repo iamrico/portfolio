@@ -61,6 +61,7 @@ const ListBullet = styled.li`
   background-repeat: no-repeat;
   background-size: 0.25em;
   background-position: 0 10px;
+  padding-right: 1em;
 `;
 
 const List = styled.ul`
@@ -68,6 +69,7 @@ const List = styled.ul`
   list-style: none;
   /*default*/
   line-height: 1.5;
+  display: flex;
 `
 
 const Slide = () => {
