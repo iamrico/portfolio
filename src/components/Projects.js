@@ -8,7 +8,7 @@ import '../App.scss';
 const Title = styled.h2`
   font-family: Axiforma-Bold;
   line-height: 50px;
-  color: #394247;
+  color: #183A5A;
   font-size: 34px;
   letter-spacing: 1.5px;
   line-height: 50px;
