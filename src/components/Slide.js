@@ -41,23 +41,28 @@ const ProjectTitle = styled.div`
 
 const ProjectNumber = styled.div`
   font-family: Axiforma-Thin;
+  font-size: 16px;
+  line-height: 16px;
 `;
 
 const FirstRow = styled.div`
   display: flex;
   justify-content: space-between;
   padding-bottom: 15px;
+  align-items: center;
 `;
 const CodeLink = styled.a`
   color: inherit !important;
   font-family: "Axiforma-Regular";
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 16px;
 `;
 
 const GithubLogo = styled.img`
   width: 17px;
   height: 17px;
   margin-right: 15px;
+  display: block;
 `;
 
 const ListBullet = styled.li`
@@ -78,6 +83,10 @@ const List = styled.ul`
   display: flex;
 `;
 
+const Group = styled.div`
+  display:flex;
+  align-items: center;
+`
 const Slide = () => {
   return (
     <div className="container">
@@ -87,10 +96,14 @@ const Slide = () => {
           <DetailArea>
             <FirstRow>
               <ProjectNumber>01</ProjectNumber>
-              <CodeLink>
+              <Group>
+                <div>
                   <GithubLogo src={github_logo} alt="github_logo" />
-                  Code
-              </CodeLink>
+                </div>
+                <div>
+                  <CodeLink>Code</CodeLink>
+                </div>
+              </Group>
             </FirstRow>
             <ProjectTitle>Project 1</ProjectTitle>
             <Description>
