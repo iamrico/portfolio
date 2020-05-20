@@ -16,7 +16,6 @@ const App = ({skills,projects}) => {
         <Banner />
         <ToolBox />
         <Projects />
-        
       </div>
       <Footer />
     </div>

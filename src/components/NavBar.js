@@ -9,7 +9,7 @@ const Nav = styled.header`
 `
 const NavItem = styled.h3`
     display: inline-block;
-    font-family: Axiforma-Medium;
+    font-family: Axiforma-Regular;
     color: #183A5A;
     padding-left: 35px;
 `

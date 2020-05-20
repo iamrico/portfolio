@@ -7,7 +7,7 @@ const initialState = {
     skills:{
         languages:['Java', 'Python','C','PHP'],
         databases:['MySQL','Cloud Firestore','Firebase Realtime Database','Google Cloud Datastore'],
-        tools:['React','Redux','React Native','Node JS','Flask','GraphQL','Angular','TypeScript','Javascript','ES6','REST Api','Gatsby.js'],
+        tools:[{toolName:'Javascript/ES6+', toolDesc: '', toolIcon:'' },'React', 'Dart' ,'Flutter', 'OOP Languages'],
         ctech:['Amazon Web Services (Route 53, s3)','Google Cloud Platform']
     },
     projects:[
