@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import bannerImage from "../assets/banner-image.svg";
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 
 const BannerText = styled.p`
@@ -36,16 +36,19 @@ const Dot = styled.span`
   color: #c34129;
 `;
 
+
+
 const Banner = () => {
   return (
     <section className="banner">
       <Row>
         <BannerText>
           <Thin>Hey there, </Thin>
-          <Thin>I can</Thin> show you what I do <Thin>and get to</Thin> know me
-          more<Dot>.</Dot>
+          <Thin>I can </Thin>
+          show you what I do
+          <Thin>and get to</Thin> know me more<Dot>.</Dot>
         </BannerText>
-        <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
+        <ScrollAnimation animateIn="bounceInRight" animateOnce={true}>
           <BannerImage />
         </ScrollAnimation>
       </Row>
